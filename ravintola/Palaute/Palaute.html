@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang="fi">
+<head>
+    <title>Ravintola Lapintaika palaute</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="../Harjoitus5.css">
+</head>
+
+<body>
+
+    <div class="grid-container">
+      <div class="head">
+          <h1>
+            Ravintola Lapintaika
+          </h1>
+      </div>
+    
+      <div class="nav">
+          <p>
+            <a href="/HTML_CSS/Harjoitus5/Harjoitus5.html">Kotisivut</a>
+            <a href="">Töihin?</a>
+            <a href="">Yhteystiedot</a>
+            <a href="https://www.w3schools.com/html/default.asp">Lisätietoa</a>
+          </p>
+      </div>  
+      <div class="article">
+        <form>
+        
+            <h2>Perustietosi</h2>
+            <table class=center>
+                <tr>
+                    <td>Nimesi: </td> <td><input type="text" name="firstname" value="" maxlength=30></td>
+                </tr>
+                <tr>
+                    <td>Ikäsi:</td> <td><input type="number" name="age"></td>
+                </tr>
+                <tr>
+                    <td>Puh.: </td> <td><input type="number"> </td>
+                </tr>
+                <tr>
+                    <td>Sähköposti:</td> <td><input type="email"></td>
+                <tr>
+            </table>
+    
+            <br>
+            <br>
+            <h2>Sukupuolesi</h2>
+            
+            <table class=center>
+            <tr>
+                <td><input type="radio" name="gender" value="man" class="input"></td> <td>Mies</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="gender" value="female"></td> <td>Nainen</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="gender" value="other" ></td> <td>Muu</td>
+            </tr>
+            
+            </table>
+
+            <h2>Palautettasi vastaava ajankohta</h2>
+            <input type="datetime-local">
+    
+            <h2>Arviosi</h2>
+    
+        <div id="radio">
+            <table class=center>
+                <tr>
+                    <td><input type="radio" name="transport1" value="erinomainen"></td> <td>Erinomainen</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="transport1" value="Hyvä"></td> <td>Hyvä</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="transport1" value="OK"></td> <td>Menettelevä</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="transport1" value="Huono"></td> <td>Huono</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="transport1" value="Kamala"></td> <td>Kamala</td>
+                </tr>
+            </table>
+        </div>
+            <br>
+    
+            <h2>Vapaamuotoinen palaute:</h2>
+            <textarea name="message" rows="6" cols="50">
+            
+            </textarea>
+            <br>
+            <input type="submit" value="Lähetä">
+            
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+    
+            
+        </form>
+      </div>
+
+      
+      <div class="footer">
+          <p>
+            Ravintola Lapintaika, Ravintolakatu 2, 98765 LAPINMAA <br>Puh. (012) 345 6789 <br>Sähköposti: varaukset@jokuposti.net
+          </p>
+      </div>
+    </div>
+    
+
+</body>
+</html>

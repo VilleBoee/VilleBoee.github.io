@@ -1,0 +1,109 @@
+h1 {
+    font-size: 2cm;
+}
+
+h2 {
+    font-size: 1cm;
+}
+
+p {
+    font-size: 0.5cm;
+}
+
+
+
+
+img {
+    max-height: 300px;
+}
+
+.Header {
+    width: 100%;
+    text-align: center;
+    height: 6cm;
+    color: blue;
+    background-image: url(/HTML_CSS/Harjoitus4/kuvat/Suomi.jpg);
+    background-size: 100%;
+    background-position: 1%;
+    border-style: solid;
+    border-radius: 1px;
+    border-width: 3px;
+    padding: 5px;
+    align-content: center;
+}
+
+.flexboxi {
+    background-color: rgb(68, 68, 255);
+    display: flex;
+    background-size: 100%;
+}
+    
+.navbar {
+    display: inline-flex;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 1;
+    align-content: center; 
+    align-items: center;
+}
+    
+.navbutton {
+    align-content: none;
+    display: inline-flex;
+    padding: 5px 14px;
+    color: white;
+    background-color:blue;
+    
+    border-style: inset;
+    border-radius: 0px;
+    text-decoration: none;
+    text-align: center;
+    font-family: serif;
+    }
+
+.navbutton:hover, .navbutton:active {
+    background-color: rgb(0, 153, 255);
+}
+
+.Luonto {
+    height: auto;
+    width: auto;
+    background-color: rgb(180, 255, 151);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 15px;
+    position: static ;
+    position
+}
+
+.Perustietoja {
+    
+    background-color: rgb(151, 170, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.Ruoka {
+    height: auto;
+    width: auto;
+    background-color: rgb(255, 100, 133);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.info {
+    height: auto;
+    width: auto;
+    background-color: rgb(151, 170, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 15px;
+}

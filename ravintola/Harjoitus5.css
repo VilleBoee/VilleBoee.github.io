@@ -1,0 +1,82 @@
+
+
+
+.aside { grid-area: menu; }
+.nav { grid-area: main; }
+.article { grid-area: article; }
+.section { grid-area: right; }
+.footer { grid-area: footer;}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'main main main main main main'
+    'menu article article article article right'
+    'footer footer footer footer footer footer';
+  grid-gap: 10px;
+  background-image: url(./img/tausta.jpg);
+  color: rgb(0, 245, 233);
+  background-size: auto;
+  background-repeat: no-repeat;
+  padding: 10px;
+  
+}
+
+.grid-container > div {
+  background-color: rgba(0, 31, 167, 0.438);
+  text-align: center;
+  padding: 2mm;
+  font-size: 20px;
+}
+
+.head { 
+  grid-area: header; 
+  background-image: url(/HTML_CSS/Harjoitus5/img/kattaus.jpg);
+  background-size: auto;
+  background-position: center;
+  background-size: 100%;
+  color: rgb(0, 245, 233);
+}
+
+a:link, a:visited {
+  background-color: #0004ff79;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgb(0, 171, 194);
+}
+
+body{
+  color: rgb(0, 43, 92);
+  background-image: url(/HTML_CSS/Harjoitus5/img/tausta.jpg);
+  background-size: 100cm;
+  background-repeat: no-repeat;
+}
+
+
+
+form{
+  text-align: center;
+  color: rgb(0, 245, 233);
+  
+}
+
+input{
+  background-color: rgba(0, 217, 255, 0.534);
+
+}
+
+textarea{
+  background-color: rgba(0, 217, 255, 0.534);
+}
+
+table.center{
+  margin-left: auto;
+  margin-right: auto;
+}
